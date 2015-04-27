@@ -1,0 +1,13 @@
+--- 
+
+## more info -> https://github.com/Shopify/shopify_theme
+## Get your api_key and password at your-url.myshopify.com/admin/apps/private
+
+:api_key: <API key>
+:password: <password>
+:store: your-shop.myshopify.com
+:theme_id: <theme ID>
+:ignore_files:
+#- .git/
+#- spec/
+#- .gitignore
