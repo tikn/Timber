@@ -113,6 +113,9 @@ $colorNavText: #333;
 $colorFooterBg: {{ settings.color_footer_bg }};
 $colorFooterText: {{ settings.color_footer_text }};
 
+// Logo max width
+$logoMaxWidth: {{ settings.logo_max_width | default: '450' | remove: 'px' }}px;
+
 // Helper colors
 $disabledGrey: #f6f6f6;
 $disabledBorder: darken($disabledGrey, 25%);
@@ -241,6 +244,14 @@ $socialIconFontStack: 'icons';
   @else {
     @return #fff;
   }
+}
+
+/*============================================================================
+  Layer promotion mixin for creating smoother animations with higher FPS.
+==============================================================================*/
+@mixin promote-layer($properties: transform) {
+  -webkit-transform: translateZ(0); // translateZ hack
+  will-change: $properties; // spec
 }
 
 /*============================================================================
@@ -1791,7 +1802,7 @@ label.error {
 }
 
 .site-header__logo-link {
-  max-width: 450px; // max upload size
+  max-width: $logoMaxWidth;
   margin: 0 auto;
 }
 
@@ -2046,9 +2057,11 @@ label.error {
 ==============================================================================*/
 .js-drawer-open {
   overflow: hidden;
+  height: 100%;
 }
 
 .drawer {
+  @include promote-layer();
   display: none;
   position: fixed;
   overflow-y: auto;
@@ -2113,6 +2126,7 @@ label.error {
 }
 
 .is-moved-by-drawer {
+  @include promote-layer();
   transition: $drawerTransition;
 
   .js-drawer-open-left & {
