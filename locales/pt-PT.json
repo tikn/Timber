@@ -14,7 +14,8 @@
     },
     "newsletter_form": {
       "newsletter_email": "email@exemplo.com",
-      "submit": "Subscrever"
+      "submit": "Subscrever",
+      "confirmation": "Obrigado pela sua subscrição"
     },
     "search": {
       "no_results_html": "A sua pesquisa por \"{{ terms }}\" não produziu resultados.",
@@ -286,7 +287,8 @@
       "active": "Expira em {{ expiry }}",
       "redeem": "Use este código ao fazer o check-out para redimir o seu cartão-presente",
       "shop_link": "Começar a fazer compras",
-      "print": "Imprimir"
+      "print": "Imprimir",
+      "add_to_apple_wallet": "Adicionar ao Apple Wallet"
     }
   },
   "date_formats":{

@@ -14,7 +14,8 @@
     },
     "newsletter_form": {
       "newsletter_email": "email@beispiel.com",
-      "submit": "Abonnieren"
+      "submit": "Abonnieren",
+      "confirmation": "Danke fürs Anmelden"
     },
     "search": {
       "no_results_html": "Ihre Suche nach \"{{ terms }}\" hat keine Ergebnisse hervorgebracht.",
@@ -286,7 +287,8 @@
       "active": "Läuft ab am {{ expiry }}",
       "redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
       "shop_link": "Einkauf beginnen",
-      "print": "Drucken"
+      "print": "Drucken",
+      "add_to_apple_wallet": "Hinzufügen zu Apple Wallet"
     }
   },
   "date_formats":{

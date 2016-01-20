@@ -14,7 +14,8 @@
     },
     "newsletter_form": {
       "newsletter_email": "courriel@exemple.com",
-      "submit": "S'inscrire"
+      "submit": "S'inscrire",
+      "confirmation": "Merci de vous être inscrit"
     },
     "search": {
       "no_results_html": "Votre recherche pour \"{{ terms }}\" n'a pas généré de résultats.",
@@ -286,7 +287,9 @@
       "active": "Expire le {{ expiry }}",
       "redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
       "shop_link": "Boutique",
-      "print": "Imprimer"
+      "print": "Imprimer",
+      "add_to_apple_wallet": "Ajouter à Apple Wallet"
+
     }
   },
   "date_formats":{

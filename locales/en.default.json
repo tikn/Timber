@@ -14,7 +14,8 @@
     },
     "newsletter_form": {
       "newsletter_email": "email@example.com",
-      "submit": "Subscribe"
+      "submit": "Subscribe",
+      "confirmation": "Thanks for subscribing"
     },
     "search": {
       "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
@@ -286,7 +287,8 @@
       "active": "Expires on {{ expiry }}",
       "redeem": "Use this code at checkout to redeem your gift card",
       "shop_link": "Start shopping",
-      "print": "Print"
+      "print": "Print",
+      "add_to_apple_wallet": "Add to Apple Wallet"
     }
   },
   "date_formats":{
